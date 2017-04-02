@@ -1,6 +1,7 @@
 ## Interface: 70200
 ## Title: FindEm
 ## Author: slamDuncan52
+## Description: FindEm enables easy color coded enemy tables to make sure you target the mob you wish to
 ## Version: 0.0.1
 
 main.lua
