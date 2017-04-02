@@ -1,6 +1,5 @@
-local Loot_EventFrame = CreateFrame("Frame")
-Loot_EventFrame:RegisterEvent("LOOT_OPENED")
-Loot_EventFrame:SetScript("OnEvent", function(self, event, ...) 
-        local arg1 = ...
-          print("You looted! Your autoloot is set to ' ..arg1.. '")
+local Aggro_EventFrame = CreateFrame("Frame")
+Aggro_EventFrame:RegisterEvent("PLAYER_REGEN_DISABLED")
+Aggro_EventFrame:SetScript("OnEvent", function(self, event, ...) 
+          print("You got aggro!")
             end)
