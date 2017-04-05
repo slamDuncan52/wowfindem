@@ -1,8 +1,0 @@
-## Interface: 70200
-## Title: tut1
-## Version: 1.0
-## Notes: Simple GPS
-## Author: datME
-
-tut1.lua
-tut1.xml
